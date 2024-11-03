@@ -7,8 +7,7 @@
     "init": "npm i -g wr && npm install -g less && npm install -g bower && bower install && npm install",
     "build": "grunt build",
     "dev": "grunt dev",
-    "watch": "wr --exec \"lessc --source-map less/editor.less dist/kityminder.editor.css && grunt build\" less ui",
-    "postinstall": "bower install"
+    "watch": "wr --exec \"lessc --source-map less/editor.less dist/kityminder.editor.css && grunt build\" less ui"
   },
   "repository": {
     "type": "git",
